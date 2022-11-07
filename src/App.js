@@ -32,6 +32,7 @@ function App() {
           console.log('decoded', decoded)
           // setCode(decoded);
     }).catch(err => console.log('err', err)); 
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, []) 
 
 useEffect(() => {
