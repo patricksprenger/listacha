@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b6ada9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main {
+  width: 400px,
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.input {
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+}
+
+.nameChecked {
+  text-decoration: line-through;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#928e8e;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#181717;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  width: 100%;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ea6969 100%);
+	background-color:#ff8585;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b6ada9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main {
+  width: 400px,
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.input {
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+}
+
+.nameChecked {
+  text-decoration: line-through;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#928e8e;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#181717;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  width: 100%;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ea6969 100%);
+	background-color:#ff8585;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
