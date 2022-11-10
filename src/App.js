@@ -52,7 +52,7 @@ useEffect(() => {
 async function updateFile(updatedList) {
   try {
     const contentEncoded = b64EncodeUnicode(JSON.stringify(updatedList))
-    const data = await octokit.rest.repos.createOrUpdateFileContents({
+    await octokit.rest.repos.createOrUpdateFileContents({
     owner: "patricksprenger",
     repo: "patricksprenger.github.io",
     path: "list.json",
