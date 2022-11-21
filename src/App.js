@@ -133,7 +133,14 @@ async function updateFile(updatedList) {
           <ToastContainer />
           <div className="header">
             <img className="img" src="https://images.creativemarket.com/0.1.0/ps/7424024/1820/1213/m1/fpnw/wm1/ffzblzstga22qqc5ybvuyrxpju94awstdhrlqq0wfsbuocevbesnc17upfdp6xow-.jpg?1575663214&s=bb273e1b77d3758f29d618072cb5a295" alt="background"/>
-            <p className="title">Chá de bebê</p>
+            <div className="boxTitle">
+              <p className="title">Chá da Júlia</p>
+              <p className="subtitle">Lista de sugestão de presente</p>
+            </div>
+          </div>
+          <div className="obs">
+            <p>* Selecione uma ou mais opções da lista e utilize o botão "salvar" para fazer o registro.</p>
+            <p>* A lista contém sugestões de presente, mas fique a vontade para presentear da forma que quiser, nesse caso é possível marcar a opção "Outro" no final da lista.</p>
           </div>
           <div className="App-header">
             <div className='main'>

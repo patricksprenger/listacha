@@ -73,6 +73,15 @@
   vertical-align: middle;
 }
 
+.boxTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 1vh;
+  width: 100%;
+}
+
 .title {
   font-family: 'Pacifico', cursive;
   width: 100%;
@@ -81,8 +90,16 @@
   margin: 0;
   font-size: 9vw;
   text-shadow: 3px 3px 0px rgb(8, 8, 8);
-  position: absolute;
-  top: 6vh;
+}
+
+.subtitle {
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 242, 61);
+  margin: 0;
+  font-size: 6vw;
+  text-shadow: 2px 2px 0px rgb(8, 8, 8);
 }
 
 .loader {
@@ -91,4 +108,12 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.obs {
+  font-size: 10px;
+  line-height: 12px;
+  padding: 20px 20px 0;
+  font-weight: bold;
+  color: gray;
 }
